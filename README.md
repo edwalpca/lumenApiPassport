@@ -1,19 +1,21 @@
-# Lumen PHP Framework
+# Lumen PHP Maqueta ApiRest con JWT dusterio/Passport
 
 [![Build Status](https://travis-ci.org/laravel/lumen-framework.svg)](https://travis-ci.org/laravel/lumen-framework)
 [![Total Downloads](https://img.shields.io/packagist/dt/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
 [![Latest Stable Version](https://img.shields.io/packagist/v/laravel/lumen-framework)](https://packagist.org/packages/laravel/lumen-framework)
 [![License](https://img.shields.io/packagist/l/laravel/lumen)](https://packagist.org/packages/laravel/lumen-framework)
 
-Laravel Lumen is a stunningly fast PHP micro-framework for building web applications with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Lumen attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as routing, database abstraction, queueing, and caching.
+Proyecto maqueta listo para usar como servicio apiRest en Laravel/Lumen 9.x, se formatean a nivel de handler las respuestas para que estas vayan con formatos json para el control de excepciones. Utiliza un middleware para autenticar las peticiones a traves de un JWT como client del ApiRest, pero combina el JWT a nivel de users.
 
-## Official Documentation
 
-Documentation for the framework can be found on the [Lumen website](https://lumen.laravel.com/docs).
+## Documentacion Oficial
 
-## Contributing
+Documentacion oficial del Framework [Lumen website](https://lumen.laravel.com/docs).
 
-Thank you for considering contributing to Lumen! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Paquetes adicionales utilizados
+
+- dusterio/lumen-passport
+- laravel/passport
 
 ## Security Vulnerabilities
 
